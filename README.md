@@ -16,6 +16,12 @@ Use object tracking software (OpenCV2) to generate yolov3 suitable training imag
     - Follow the same process as above.
     - With the 'capture' argument, data will be output to the `<output path>`
 
+### Environment Requirements
+- Python 3.7
+- OpenCV
+    - Install cv2 in python3 via pip install opencv-contrib-python
+    - The "contrib" installation expands the install to include all the object tracking packages
 
-TODO: OpenCV License Ref:
-TODO: Tracking Video code modified from: 
+### References
+Object Tracking Video code modified from Satya Mallick's article on LearnOpenCV here:
+https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/
